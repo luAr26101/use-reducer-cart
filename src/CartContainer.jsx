@@ -1,5 +1,5 @@
-import CartItem from './CartItem';
-import cartItems from './data';
+import CartItem from "./CartItem";
+import cartItems from "./data";
 const CartContainer = () => {
   const cartArray = [...cartItems];
 
@@ -36,7 +36,7 @@ const CartContainer = () => {
         </div>
         <button
           className='btn btn-hipster'
-          onClick={() => console.log('clear cart')}
+          onClick={() => console.log("clear cart")}
         >
           clear cart
         </button>
